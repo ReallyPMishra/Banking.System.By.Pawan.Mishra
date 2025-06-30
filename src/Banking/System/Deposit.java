@@ -27,22 +27,22 @@ public class Deposit extends JFrame implements ActionListener {
         l3.add(label1);
 
         textField = new TextField();
-        textField.setBackground(new Color(65,125,128));
-        textField.setForeground(Color.WHITE);
-        textField.setBounds(460,230,320,25);
+        textField.setBackground(Color.pink);
+        textField.setForeground(Color.BLACK);
+        textField.setBounds(460,230,320,28);
         textField.setFont(new Font("Raleway", Font.BOLD,22));
         l3.add(textField);
 
         b1 = new JButton("DEPOSIT");
         b1.setBounds(700,362,150,35);
-        b1.setBackground(new Color(65,125,128));
-        b1.setForeground(Color.WHITE);
+        b1.setBackground(Color.green);
+        b1.setForeground(Color.BLACK);
         b1.addActionListener(this);
         l3.add(b1);
 
         b2 = new JButton("BACK");
         b2.setBounds(700,406,150,35);
-        b2.setBackground(new Color(65,125,128));
+        b2.setBackground(Color.RED);
         b2.setForeground(Color.WHITE);
         b2.addActionListener(this);
         l3.add(b2);
@@ -51,7 +51,7 @@ public class Deposit extends JFrame implements ActionListener {
 
 
         setLayout(null);
-        setSize(1550,1080);
+        setSize(1370,1080);
         setLocation(0,0);
         setVisible(true);
 

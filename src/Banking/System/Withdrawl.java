@@ -57,7 +57,7 @@ public class Withdrawl extends JFrame implements ActionListener {
         l3.add(b2);
 
         setLayout(null);
-        setSize(1550,1080);
+        setSize(1370,1080);
         setLocation(0,0);
         setVisible(true);
     }

@@ -34,7 +34,7 @@ public class BalanceEnquiry extends JFrame implements ActionListener {
 
         b1 = new JButton("Back");
         b1.setBounds(700,406,150,35);
-        b1.setBackground(new Color(65,125,128));
+        b1.setBackground(Color.RED);
         b1.setForeground(Color.WHITE);
         b1.addActionListener(this);
         l3.add(b1);
@@ -57,7 +57,7 @@ public class BalanceEnquiry extends JFrame implements ActionListener {
         label2.setText(""+balance);
 
         setLayout(null);
-        setSize(1550,1080);
+        setSize(1370,1080);
         setLocation(0,0);
         setVisible(true);
     }

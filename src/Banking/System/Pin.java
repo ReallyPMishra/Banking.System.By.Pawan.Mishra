@@ -57,21 +57,21 @@ public class Pin extends JFrame implements ActionListener {
 
         b1 = new JButton("CHANGE");
         b1.setBounds(700,362,150,35);
-        b1.setBackground(new Color(65,125,128));
+        b1.setBackground(Color.RED);
         b1.setForeground(Color.WHITE);
         b1.addActionListener(this);
         l3.add(b1);
 
         b2 = new JButton("BACK");
         b2.setBounds(700,406,150,35);
-        b2.setBackground(new Color(65,125,128));
-        b2.setForeground(Color.WHITE);
+        b2.setBackground(Color.YELLOW);
+        b2.setForeground(Color.black);
         b2.addActionListener(this);
         l3.add(b2);
 
 
 
-        setSize(1550,1080);
+        setSize(1370,1080);
         setLayout(null);
         setLocation(0,0);
         setVisible(true);
@@ -102,7 +102,7 @@ public class Pin extends JFrame implements ActionListener {
                 Connn c = new Connn();
                 String q1 = "update bank set pin = '"+pin1+"' where pin = '"+pin+"'";
                 String q2 = "update login set pin = '"+pin1+"' where pin = '"+pin+"'";
-                String q3 = "update signupthree set pin = '"+pin1+"' where pin = '"+pin+"'";
+                String q3 = "update signup3 set pin = '"+pin1+"' where pin = '"+pin+"'";
 
                 c.statement.executeUpdate(q1);
                 c.statement.executeUpdate(q2);

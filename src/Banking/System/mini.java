@@ -11,7 +11,8 @@ public class mini extends JFrame implements ActionListener {
     JButton button;
     mini(String pin){
         this.pin = pin;
-        getContentPane().setBackground(new Color(255,204,204));
+
+        getContentPane().setBackground(new Color(155,49,234));
         setSize(400,600);
         setLocation(20,20);
         setLayout(null);
@@ -20,9 +21,9 @@ public class mini extends JFrame implements ActionListener {
         label1.setBounds(20,140,400,200);
         add(label1);
 
-        JLabel label2 = new JLabel("TechCoder A.V");
+        JLabel label2 = new JLabel("PAWAN ;)");
         label2.setFont(new Font("System", Font.BOLD,15));
-        label2.setBounds(150,20,200,20);
+        label2.setBounds(155,20,200,20);
         add(label2);
 
         JLabel label3 = new JLabel();
@@ -65,7 +66,7 @@ public class mini extends JFrame implements ActionListener {
         button = new JButton("Exit");
         button.setBounds(20,500,100,25);
         button.addActionListener(this);
-        button.setBackground(Color.BLACK);
+        button.setBackground(Color.RED);
         button.setForeground(Color.WHITE);
         add(button);
 
